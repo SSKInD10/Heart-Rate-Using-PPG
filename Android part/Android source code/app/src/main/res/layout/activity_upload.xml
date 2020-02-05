@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/view_background">
+
+    <!-- To display picture taken -->
+
+    <!-- Videoview to preview recorded video -->
+
+    <VideoView
+        android:id="@+id/videoPreview"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/txt_font"
+        android:textSize="30sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="35dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/btn_bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btnUploadToServer"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/btn_bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/Next"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>

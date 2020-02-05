@@ -1,0 +1,43 @@
+README PROJECT:
+
+TEAM NAME: VIRTUAL POLICE from SSN college of engnieering
+
+App Name: HEART RATE MONITOR
+
+  
+
+USER FRIENDLY INTERFACE HAS BEEN CREATED
+
+9 java class has been used.
+
+-->SPLASHSCREEN activity is the first launcher screen.(Default Launcher in android manifest)
+
+-->MAINACTIVITY is the first file which has the click listeners for opening the camera.
+
+-->CONFIG class contains the upload url for wamp server.
+
+-->UPLOADACTIVITY Class makes request to the server, gets the response and uploads the media file.(Httppost & HttpClient)
+
+   It also creates the uri for storing the media file in pc and contains the preview of the video.
+   
+   App calls a file upload.php file that returns a jason response after storing the media file.
+
+-->ANDROIDMULTIPARTENTITY class contains the progress Listener for uploading media file.
+
+-->INSTRUCTRIONSACTIVITY displays the instruction manual for user.
+
+-->RECIEVEDATA class accepts the processed data(i.e heart rate) from wamp server in the form of string 
+and displays the value of heart rate in bpm.
+
+-->STRESSDATA class gives tips from the user heart rate.
+
+-->All class has its corresponding xml file.
+
+-->external libraries have been added to the gradle file such as navigation drawer etc,
+
+Github repository have been implemented to enhance UI.
+
+
+
+
+

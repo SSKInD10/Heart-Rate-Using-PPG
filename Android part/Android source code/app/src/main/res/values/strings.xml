@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Heart Rate Monitor</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="t1">Click on exercise or resting button</string>
+    <string name="t2">For recording click on record video button</string>
+    <string name="t3">Take a video for 10sec with less movements</string>
+    <string name="t4">Conform video uploading</string>
+    <string name="t5">Click on upload and proceed button to get heart rate</string>
+    <string name="t6">Click heart rate to get bpm</string>
+    <string name="or">(or)</string>
+    <string name="rest">RESTING</string>
+    <string name="test1">STRESS TEST</string>
+    <string name="test2">HEART HEALTH PROGRAMS</string>
+    <string name="test4">PRINTABLE HEART REPORTS</string>
+    <string name="stress">STRESS RATE</string>
+    <string name="heart">Heart Rate Monitor</string>
+    <string name="exercise">AFTER EXERCISE</string>
+    <string name="exer">EXERCISE</string>
+    <string name="Rest">REST POSITION</string>
+    <string name="Stress">STRESS MEASUREMENT</string>
+    <string name="btn">GET HEART RATE</string>
+    <string name="Endbtn">GO to Home</string>
+    <string name="Next">Proceed</string>
+    <string name="profile">Profile</string>
+    <string name="fact">Fact</string>
+    <string name="use">How to Use</string>
+    <string name="about">About Us</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="hello">Heart Rate IS:</string>
+    <string name="set">Settings</string>
+    <string name="his">History</string>
+    <string name="ab">Developed by SSN students</string>
+    <string name="click">Select one of the choice!!</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+</resources>
+
